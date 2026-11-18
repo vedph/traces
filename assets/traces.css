@@ -117,3 +117,16 @@ h2.sec{font-weight:600;font-size:clamp(1.8rem,1.4rem + 1.2vw,2.3rem);margin:3rem
 .wsd summary:focus-visible{outline:2px solid var(--red);outline-offset:4px}
 .top nav a{padding:.25rem 0}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+
+/* sito BLADE: persone */
+.person{display:grid;grid-template-columns:150px minmax(0,1fr);gap:1rem 1.8rem;align-items:start;margin:1.4rem 0 0}
+.person img{width:150px;height:150px;border-radius:50%;display:block}
+.person h3,.text h3{font-weight:600;font-size:1.25rem;line-height:1.25;margin:0 0 .1rem}
+.person .role{font-style:italic;color:var(--soft);margin:0 0 .7rem}
+.text .role{font-style:italic;color:var(--soft);margin:0 0 .7rem}
+@media (max-width:560px){.person{grid-template-columns:1fr}.person img{width:120px;height:120px}}
+.foot .flogos{display:flex;align-items:center;gap:1.4rem;flex:none}
+.foot .flogos img{height:64px;width:auto;display:block}
+.foot .flogos a{text-decoration:none}
+.foot .wrap > div.flogos{flex:none}
+.slot h3 .online{font-weight:400}
