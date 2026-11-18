@@ -130,3 +130,8 @@ h2.sec{font-weight:600;font-size:clamp(1.8rem,1.4rem + 1.2vw,2.3rem);margin:3rem
 .foot .flogos a{text-decoration:none}
 .foot .wrap > div.flogos{flex:none}
 .slot h3 .online{font-weight:400}
+
+/* locandina del programma da scaricare */
+.dl{margin:1.2rem 0 .4rem}
+.dl a{display:inline-flex;align-items:center;gap:1rem}
+.dl img{width:84px;height:auto;border:1px solid #d9d9d9;flex:none}
