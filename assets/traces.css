@@ -135,3 +135,17 @@ h2.sec{font-weight:600;font-size:clamp(1.8rem,1.4rem + 1.2vw,2.3rem);margin:3rem
 .dl{margin:1.2rem 0 .4rem}
 .dl a{display:inline-flex;align-items:center;gap:1rem}
 .dl img{width:84px;height:auto;border:1px solid #d9d9d9;flex:none}
+
+/* pagina Abstracts e bio */
+.text h2.dayh{font-size:1.45rem;margin:2.8rem 0 0;padding-bottom:.45rem;border-bottom:1.5px solid var(--ink)}
+.text h2.dayh:first-child{margin-top:1.6rem}
+.text article.abs{padding:1.4rem 0;border-bottom:1px solid var(--rule)}
+.text article.abs h3{font-weight:600;font-size:1.25rem;line-height:1.25;margin:0}
+.text article.abs .label{font-style:italic;color:var(--red);margin:0}
+.text article.abs .who{margin:.15rem 0 .8rem}
+.text article.abs .who:last-child{margin-bottom:0}
+.text article.abs .who .online{font-style:italic;color:var(--muted)}
+.text .bio{margin-top:1rem;color:var(--soft);font-size:.95em}
+.text .bio p:last-child,.text article.abs > p:last-child{margin-bottom:0}
+.slot .ttl a{color:inherit;text-decoration-color:var(--muted)}
+.slot .ttl a:hover{color:var(--red)}
